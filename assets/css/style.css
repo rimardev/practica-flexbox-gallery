@@ -1,0 +1,30 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #404040;
+}
+header {
+  color: white;
+  text-align: center;
+  font-size: x-large;
+}
+main {
+  width: 90%;
+  margin: auto;  
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+main div {
+  width: 30%;
+  border: 1px solid #808080;
+  border-radius: 20px;
+}
+main img {
+  width: 100%;
+  border-radius: 20px;
+}
+footer {
+  height: 60px;
+}
